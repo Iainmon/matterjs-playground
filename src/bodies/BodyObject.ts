@@ -2,15 +2,15 @@ import Location from '../structures/Location'
 
 class BodyObject {
 
-    public location : Location;
+    public static location: Location;
 
-    constructor( location : Location ) {
-        
-        if (!location) {
+    public static initialize(newLocation: Location) {
+
+        if (!newLocation) {
             throw 'Location was not passed as a parameter into this game object.';
         }
 
-        this.location = location;
+        this.location = newLocation;
     }
 
 }

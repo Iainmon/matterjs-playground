@@ -22,7 +22,11 @@ var runner = Runner.create();
 Runner.run(runner, engine);
 
 // Imports cloth body
-import cloth from './bodies/Cloth'
+import Cloth from './bodies/Cloth'
+
+Cloth.initialize();
+
+var cloth = Cloth.create();
 
 World.add(world, [
     cloth,
