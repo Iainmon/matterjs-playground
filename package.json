@@ -9,7 +9,13 @@
   "author": "Iain Moncrief",
   "license": "ISC",
   "devDependencies": {
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3333",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "@types/matter-js": "^0.10.2",
+    "matter-js": "^0.14.2"
   }
 }
