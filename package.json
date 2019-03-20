@@ -4,7 +4,8 @@
   "description": "",
   "private": true,
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "docs" : "rm -rf docs && mkdir docs && cp -a disk/. docs/."
   },
   "author": "Iain Moncrief",
   "license": "ISC",

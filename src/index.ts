@@ -17,7 +17,7 @@ class Delegate {
 
         console.log("mainis runni");
 
-        const element: any = document.getElementById('matter');
+        let element: HTMLElement = document.getElementById('matter');
 
         // create an engine
         var engine = Engine.create();

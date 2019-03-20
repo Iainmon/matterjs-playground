@@ -17,7 +17,7 @@ class Cloth extends BodyObject {
     public static cloth: any;
 
     public static initialize(location: Location) {
-        Cloth.location = new Location(200, 200);
+        Cloth.location = location;
     }
 
     public static create(): any {
